@@ -1,0 +1,97 @@
+$lightBlue : #c6ecfe;
+*{
+    background-color: #F7F5F4;
+    color: #041859;
+}
+.app {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 1024px;
+        /* Login & Register */
+
+
+        //Header Navbar
+        .navbar {
+            .container {
+                display: flex;
+                justify-content: space-between;
+
+                .logo {
+                    .link {
+                        font-size: 35px;
+                        text-decoration: none;
+                        // color: #fff;
+                    }
+                }
+
+                .links {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    h6 {
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+
+                    span {
+                        cursor: pointer;
+                        font-size: 30px;
+                    }
+                    
+                    .link {
+                        // color: #fff
+                        
+                        text-decoration: none;
+                    }
+
+  
+                    }
+                }
+            }
+        }
+
+        //Home
+        .table{
+            table {
+                margin-top: 100px;
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                border: none;
+                width: 100%;
+
+                td, th {
+                    border-top: 1px solid #dddddd;
+                    text-align: center;
+                    padding: 8px;
+                }
+                th{
+                    font-size: 22.5px;
+                    font-weight: bold;
+                }
+                td{
+                    font-size: 17.5px;
+
+                }
+                
+                button {
+                    margin-right: 3px;
+                    cursor: pointer;
+                }
+                th{
+                    input{
+                        width: 600px;
+                        height:30px;
+                        font-size: 20px;
+                    }
+                    button{
+                        height: 30px;
+                        width: 75px;
+                    }    
+                }
+            }
+        }
+
+    }
